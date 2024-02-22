@@ -1,16 +1,11 @@
-import Image from "next/image";
-import Link from "next/link";
+import Navbar from "./components/navbar/page";
+import Wall from "./components/wall/page";
 
 export default function Home() {
   return (
     <main>
-      <div>
-        <h1>Hobbit Talk</h1>
-        <p> app/page.js of Hobbit Talk project</p>
-      </div>
-      <Link href="/dashboard" color="blue.400" _hover={{ color: "blue.500" }}>
-        Dashboard
-      </Link>
+      <Navbar />
+      <Wall />
     </main>
   );
 }
