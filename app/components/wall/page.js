@@ -10,9 +10,9 @@ export default function Wall() {
         templateAreas={`
                   "nav main"
                   "nav footer"`}
-        gridTemplateRows={"50px 1fr 30px"}
-        gridTemplateColumns={"150px 1fr"}
-        h="200px"
+        gridTemplateRows={"100% 1fr"}
+        gridTemplateColumns={"20% 1fr"}
+        h="100%"
         gap="1"
         color="blackAlpha.700"
         fontWeight="bold"
